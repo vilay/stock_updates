@@ -203,6 +203,16 @@
         "date": "22/08/24",
         "type": "BUY",
         "exchange": "NSE",
+        "security": "TRENT",
+        "amount": 354989,
+        "units": 51,
+        "price": 6960.5639,
+        "tran_expense": 354.66
+    },
+    {
+        "date": "22/08/24",
+        "type": "BUY",
+        "exchange": "NSE",
         "security": "UNOMINDA",
         "amount": 97262,
         "units": 85,

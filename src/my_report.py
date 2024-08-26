@@ -104,7 +104,7 @@ for security, data in aggregated_transactions.items():
 headers = ["Security Name", "Average Price", "Total Units", "Original Cost", "Current Market Value", "Profit/Loss", "Current Price", "Security Symbol"]
 
 # Write the results to a CSV file
-with open('results.csv', 'w', newline='') as csvfile:
+with open('my_portpolio.csv', 'w', newline='') as csvfile:
     writer = csv.DictWriter(csvfile, fieldnames=headers)
     
     # Write the header
