@@ -39,8 +39,9 @@ def get_security_name(symbol, exchange):
         return symbol
 
 def get_price(stock_symbol):
+    # BOM: 540205
     # Construct the Google Finance URL
-    url = f"https://www.google.com/finance/quote/{stock_symbol}:NSE"
+    url = f"https://www.google.com/finance/quote/{stock_symbol}:BOM"
 
     # Send a request to the URL
     response = requests.get(url)
@@ -67,10 +68,7 @@ def calculate_profit_loss(security, data):
     try:
         current_price = stock_data.history(period="1d")['Close'].iloc[0]
     except IndexError:
-        # Handle case where no price data is found
-        print(f"No price data found for {security} on {exchange}. You may need to check the stock symbol or manually enter the price.")
-        current_price = 0
-        return
+        current_price = get_price(security)
     
     # Calculate the average purchase price per unit
     average_price = data['total_amount'] / data['total_units'] if data['total_units'] > 0 else 0

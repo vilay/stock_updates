@@ -4,8 +4,9 @@ from bs4 import BeautifulSoup
 # Specify the stock ticker symbol
 stock_symbol = "540205"
 def get_price(stock_symbol):
+    # BOM: 540205
     # Construct the Google Finance URL
-    url = f"https://www.google.com/finance/quote/{stock_symbol}:NSE"
+    url = f"https://www.google.com/finance/quote/{stock_symbol}:BOM"
 
     # Send a request to the URL
     response = requests.get(url)
@@ -18,6 +19,7 @@ def get_price(stock_symbol):
     
     # Extract text and remove currency symbol and commas
     price_text = price_element.text.strip()
+    print(price_text)
     price_number = float(price_text.replace('₹', '').replace(',', ''))
     
     return price_number
