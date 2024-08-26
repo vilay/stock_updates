@@ -18,5 +18,205 @@
         "units": 93,
         "price": 1582.4398,
         "tran_expense": 147.05
+    },
+    {
+        "date": "22/08/24",
+        "type": "BUY",
+        "exchange": "BSE",
+        "security": "540205",
+        "amount": 197191,
+        "units": 41,
+        "price": 4809.5246,
+        "tran_expense": 197.04
+    },
+    {
+        "date": "22/08/24",
+        "type": "BUY",
+        "exchange": "NSE",
+        "security": "DOMS",
+        "amount": 153663,
+        "units": 63,
+        "price": 2439.0997,
+        "tran_expense": 153.53
+    },
+    {
+        "date": "22/08/24",
+        "type": "BUY",
+        "exchange": "NSE",
+        "security": "DIXON",
+        "amount": 192711,
+        "units": 15,
+        "price": 12847.40,
+        "tran_expense": 192.52
+    },
+    {
+        "date": "22/08/24",
+        "type": "BUY",
+        "exchange": "NSE",
+        "security": "GRWRHITECH",
+        "amount": 49539,
+        "units": 15,
+        "price": 3302.58,
+        "tran_expense": 49.46
+    },
+    {
+        "date": "22/08/24",
+        "type": "BUY",
+        "exchange": "NSE",
+        "security": "GODREJPROP",
+        "amount": 348735,
+        "units": 119,
+        "price": 2930.5425,
+        "tran_expense": 348.48
+    },
+    {
+        "date": "22/08/24",
+        "type": "BUY",
+        "exchange": "NSE",
+        "security": "INDIGO",
+        "amount": 309224,
+        "units": 69,
+        "price": 4481.5123,
+        "tran_expense": 308.97
+    },
+    {
+        "date": "22/08/24",
+        "type": "BUY",
+        "exchange": "NSE",
+        "security": "LTFOODS",
+        "amount": 147046,
+        "units": 424,
+        "price": 346.8072,
+        "tran_expense": 146.93
+    },
+    {
+        "date": "22/08/24",
+        "type": "BUY",
+        "exchange": "NSE",
+        "security": "MCX",
+        "amount": 248792,
+        "units": 52,
+        "price": 4784.4544,
+        "tran_expense": 248.62
+    },
+    {
+        "date": "22/08/24",
+        "type": "BUY",
+        "exchange": "NSE",
+        "security": "NAVKARCORP",
+        "amount": 51927,
+        "units": 344,
+        "price": 150.9507,
+        "tran_expense": 51.89
+    },
+    {
+        "date": "22/08/24",
+        "type": "BUY",
+        "exchange": "NSE",
+        "security": "NETWEB",
+        "amount": 97061,
+        "units": 39,
+        "price": 2488.7395,
+        "tran_expense": 96.99
+    },
+    {
+        "date": "22/08/24",
+        "type": "BUY",
+        "exchange": "NSE",
+        "security": "NUVAMA",
+        "amount": 243360,
+        "units": 39,
+        "price": 6239.9879,
+        "tran_expense": 243.14
+    },
+    {
+        "date": "22/08/24",
+        "type": "BUY",
+        "exchange": "NSE",
+        "security": "POLICYBZR",
+        "amount": 100026,
+        "units": 59,
+        "price": 1695.3553,
+        "tran_expense": 99.99
+    },
+    {
+        "date": "22/08/24",
+        "type": "BUY",
+        "exchange": "NSE",
+        "security": "PGEL",
+        "amount": 105135,
+        "units": 190,
+        "price": 553.3423,
+        "tran_expense": 105.02
+    },
+    {
+        "date": "22/08/24",
+        "type": "BUY",
+        "exchange": "NSE",
+        "security": "POLYCAB",
+        "amount": 300410,
+        "units": 44,
+        "price": 6827.4977,
+        "tran_expense": 300.18
+    },
+    {
+        "date": "22/08/24",
+        "type": "BUY",
+        "exchange": "NSE",
+        "security": "PRESTIGE",
+        "amount": 249735,
+        "units": 143,
+        "price": 1746.396,
+        "tran_expense": 249.54
+    },
+    {
+        "date": "22/08/24",
+        "type": "BUY",
+        "exchange": "NSE",
+        "security": "REDTAPE",
+        "amount": 152649,
+        "units": 217,
+        "price": 703.4523,
+        "tran_expense": 152.58
+    },
+    {
+        "date": "22/08/24",
+        "type": "BUY",
+        "exchange": "NSE",
+        "security": "MOTHERSON",
+        "amount": 99936,
+        "units": 516,
+        "price": 193.6748,
+        "tran_expense": 99.86
+    },
+    {
+        "date": "22/08/24",
+        "type": "BUY",
+        "exchange": "NSE",
+        "security": "TIPSINDLTD",
+        "amount": 172045,
+        "units": 239,
+        "price": 719.8554,
+        "tran_expense": 171.91
+    },
+    {
+        "date": "22/08/24",
+        "type": "BUY",
+        "exchange": "NSE",
+        "security": "UNOMINDA",
+        "amount": 97262,
+        "units": 85,
+        "price": 1144.2547,
+        "tran_expense": 97.22
+    },
+    {
+        "date": "22/08/24",
+        "type": "BUY",
+        "exchange": "NSE",
+        "security": "ZOMATO",
+        "amount": 397229,
+        "units": 1538,
+        "price": 258.2765,
+        "tran_expense": 396.91
     }
 ]
