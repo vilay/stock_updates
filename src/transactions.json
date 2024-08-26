@@ -1,0 +1,22 @@
+[
+    {
+        "date": "23/08/24",
+        "type": "BUY",
+        "exchange": "NSE",
+        "security": "ETHOSLTD",
+        "amount": 93668,
+        "units": 31,
+        "price": 3021.5503,
+        "tran_expense": 93.59
+    },
+    {
+        "date": "23/08/24",
+        "type": "BUY",
+        "exchange": "NSE",
+        "security": "VBL",
+        "amount": 147167,
+        "units": 93,
+        "price": 1582.4398,
+        "tran_expense": 147.05
+    }
+]
