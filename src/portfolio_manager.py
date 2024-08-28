@@ -104,7 +104,18 @@ class PortfolioManager:
                 results.append(result)
         return results
 
-    def write_to_csv(self, results):
+    def calculate_overall_profit_loss(self, portfolio_results):
+        total_cost = sum(result['original_cost'] for result in portfolio_results)
+        total_market_value = sum(result['current_market_value'] for result in portfolio_results)
+        overall_profit_loss = total_market_value - total_cost
+        
+        return {
+            "total_cost": total_cost,
+            "total_market_value": total_market_value,
+            "overall_profit_loss": overall_profit_loss
+        }
+
+    def write_to_csv(self, results, overall_stats):
         # Define CSV file headers
         headers = ["Security Name", "Average Price", "Total Units", "Original Cost", "Current Market Value", "Profit/Loss", "Current Price", "Security Symbol"]
 
@@ -115,7 +126,7 @@ class PortfolioManager:
             # Write the header
             writer.writeheader()
             
-            # Write the rows
+            # Write the rows for each security
             for result in results:
                 writer.writerow({
                     "Security Name": result['name'],
@@ -128,13 +139,34 @@ class PortfolioManager:
                     "Security Symbol": result['security'],
                 })
 
+            # Write the overall stats as the last row
+            writer.writerow({
+                "Security Name": "Overall",
+                "Average Price": "",
+                "Total Units": "",
+                "Original Cost": f"{overall_stats['total_cost']:.2f}",
+                "Current Market Value": f"{overall_stats['total_market_value']:.2f}",
+                "Profit/Loss": f"{overall_stats['overall_profit_loss']:.2f}",
+                "Current Price": "",
+                "Security Symbol": ""
+            })
+
         print("Results have been written to 'my_portfolio.csv'.")
 
     @staticmethod
     def main():
         portfolio_manager = PortfolioManager()
         results = portfolio_manager.get_my_portfolio()
-        portfolio_manager.write_to_csv(results)
+        
+        # Calculate overall profit or loss
+        overall_result = portfolio_manager.calculate_overall_profit_loss(results)
+        
+        # Write portfolio results and overall stats to CSV
+        portfolio_manager.write_to_csv(results, overall_result)
+        
+        print(f"Overall Profit/Loss: {overall_result['overall_profit_loss']:.2f}")
+        print(f"Total Original Cost: {overall_result['total_cost']:.2f}")
+        print(f"Total Current Market Value: {overall_result['total_market_value']:.2f}")
 
 if __name__ == "__main__":
     PortfolioManager.main()
