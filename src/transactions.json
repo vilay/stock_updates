@@ -1,6 +1,26 @@
 [
     {
-        "date": "29/08/24",
+        "date": "06/09/24",
+        "type": "SELL",
+        "exchange": "BSE",
+        "security": "540205",
+        "amount": 552,
+        "units": 1,
+        "price": 552.30,
+        "tran_expense": 0
+    },
+    {
+        "date": "06/09/24",
+        "type": "SELL",
+        "exchange": "NSE",
+        "security": "LTFOODS",
+        "amount": 6921,
+        "units": 17,
+        "price": 407.1165,
+        "tran_expense": 6.92
+    },
+    {
+        "date": "04/09/24",
         "type": "BUY",
         "exchange": "NSE",
         "security": "INDIGO",
@@ -21,7 +41,7 @@
     },
     {
         "date": "03/09/24",
-        "type": "BUY",
+        "type": "SELL",
         "exchange": "NSE",
         "security": "DOMS",
         "amount": 16015,
