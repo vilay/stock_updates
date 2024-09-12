@@ -1,5 +1,35 @@
 [
     {
+        "date": "10/09/24",
+        "type": "SELL",
+        "exchange": "NSE",
+        "security": "DOMS",
+        "amount": 2745,
+        "units": 1,
+        "price": 2745.38,
+        "tran_expense": 2.75
+    },
+    {
+        "date": "09/09/24",
+        "type": "SELL",
+        "exchange": "NSE",
+        "security": "DOMS",
+        "amount": 21877,
+        "units": 8,
+        "price": 2734.66,
+        "tran_expense": 21.89
+    },
+    {
+        "date": "09/09/24",
+        "type": "SELL",
+        "exchange": "NSE",
+        "security": "MCX",
+        "amount": 10642,
+        "units": 2,
+        "price": 5321.11,
+        "tran_expense": 10.65
+    },
+    {
         "date": "06/09/24",
         "type": "SELL",
         "exchange": "BSE",
